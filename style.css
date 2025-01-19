@@ -1,0 +1,165 @@
+*{
+    margin-top: 0%;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding-top:1%;
+    padding-bottom:1%;
+    /* border: 1px solid black; */
+}
+
+.nav-item {
+    padding: 0% 8%;
+}
+
+.nav-item a:hover{
+    background-color:#ef8e6b;
+    border-radius: 25px;
+}
+
+.navbar{
+    background-color: aqua;
+    /* position: -webkit-sticky;
+    position:sticky; */
+}
+
+.bgimg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  opacity: 70%;
+}
+
+.zind{
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    margin-top: 20%;
+    opacity: 100%;
+}
+
+.resume{
+    padding:1%;
+    border:none;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color:rgb(239, 142, 107);
+}
+
+.resume:hover{
+    text-decoration: none;
+    background-color: gold;
+}
+
+.resumedownload{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+
+.sec3 h2{
+    margin-top:40%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+.sec3div{
+    display: flex;
+    flex-direction: row;
+    margin-left:5%;
+    font-size:30px;
+}
+.one p{
+    padding-bottom: 35%;
+    color:gray;
+}
+
+.two{
+    margin-left: 5%;
+    width:150%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.info .email{
+    font-size: 15px;
+    margin-left: 35%;
+}
+
+.info .phone{
+    font-size: 15px;
+}
+.info .website{
+    font-size: 15px;
+    margin-left: 35%;
+}
+
+.aboutimg{
+    height:10vh;
+}
+.fa-brands{
+    margin-left: 10%;
+    color:black;
+    align-items: center;
+}
+.icons{
+    background-color:rgb(203, 190, 147);
+    width:70%;
+}
+
+
+.sec4h2{
+    margin-top: 5%;
+    text-align: center;
+    background-color: antiquewhite;
+    padding:2%;
+    margin-bottom: 2%;
+}
+
+.educationdiv h4{
+    font-weight: bold;
+    font-size: 19px;
+    color:green
+}
+
+.educationdiv{
+    border-top: 1px solid gray;
+    margin-top:1%;
+    padding-top: 8%;
+}
+
+.sec5{
+    margin-top: 5%;
+}
+
+.sec5 h3{
+    margin-top: 2%;
+    text-shadow: 5px 5px 20px black;
+    margin-left: 20%;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 25px;
+    padding:1%;
+    width:50%;
+}
+.sec5 h4{
+    font-size: 15px;
+}
+.skills{
+    text-align: center;
+    background-color: bisque;
+    padding:1.5%;
+    width:100%;
+}
+
+.sec6 h5{
+    line-height: 2px;
+}
+
+.iconspack a{
+    margin-left:-3%;
+}
